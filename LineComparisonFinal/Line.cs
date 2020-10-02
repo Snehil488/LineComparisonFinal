@@ -7,6 +7,7 @@ namespace LineComparisonFinal
     class Line
     {
         private int x1, x2, y1, y2;
+        public double[] lineLength = new double[2];
         public double calculateLength()
         {
             Console.WriteLine("Enter values x1 and y1 for Line 1");
