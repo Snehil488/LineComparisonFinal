@@ -10,9 +10,9 @@ namespace LineComparisonFinal
             Line line = new Line();
             for (int numOfLines = 0; numOfLines < 2; numOfLines++)
             {
-                line.lineLength[numOfLines] = line.calculateLength();
+                line.lineLength[numOfLines] = line.CalculateLength();
             }
-            line.compareLength(line.lineLength[0], line.lineLength[1]);
+            line.CompareLength(line.lineLength[0], line.lineLength[1]);
         }
     }
 }
